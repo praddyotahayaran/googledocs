@@ -1,0 +1,124 @@
+.header {
+    
+    background: #f3f3f3;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    margin: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.headerSides {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    height: 2.2rem;
+}
+
+.heading {
+    font-size: 1.1rem;
+}
+
+/************** Left Header ****************/
+
+.leftHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: .7rem;
+}
+
+.leftHeader1 {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.cta>* {
+    padding: .3rem;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cta>*:hover {
+    background: #c0ddf0;
+
+}
+
+.cta {
+    display: flex;
+    gap: .7rem;
+    font-size: 1.1rem;
+}
+
+.leftHeader2>ul {
+    display: flex;
+    list-style: none;
+    gap: .3rem;
+}
+
+.leftHeader2>ul>li {
+    font-size: .8rem;
+    cursor: pointer;
+    padding: .1rem .4rem;
+}
+
+.leftHeader2>ul>li:hover {
+    border-radius: 4px;
+    background: #c0ddf0;
+    
+}
+
+/*************** Right Header ***************/
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.rightHeaderCTA {
+    display: flex;
+    font-size: 2.7rem;
+}
+
+.rightHeaderCTA>* {
+    border-radius: 50%;
+    padding: .5rem;
+    color: #474747;
+    cursor: pointer;
+}
+
+.rightHeaderCTA>*:hover {
+    background: #c0ddf0;
+}
+
+.shareBtn {
+    padding: .5rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: .9rem;
+    background: #c2e7ff;
+    color: #001d35;
+    cursor: pointer;
+    transform: rotateY('angle');
+}
+
+.shareBtn:hover {
+    background: #aed4ee;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+
+.thumbnail {
+    border-radius: 50%;
+}

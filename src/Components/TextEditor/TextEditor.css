@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    margin: 0;
+}
+
+#container .ql-toolbar.ql-snow{
+    background: #ebeaff;
+    border-radius: 2rem;
+    border: none;
+    margin: 0 1rem;
+
+}
+
+#container .ql-editor {
+    width: 8.5in;
+    min-height: 11in;
+    padding: 1in;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+    z-index: -9;
+}
+
+#container .ql-container.ql-snow {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#container .ql-toolbar.ql-snow {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 4rem;
+    z-index: 1;
+}
