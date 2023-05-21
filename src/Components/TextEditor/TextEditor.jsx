@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef } from 'react'
+import React, { useCallback} from 'react'
 import Quill from 'quill'
 import "quill/dist/quill.snow.css"
 import "./TextEditor.css"
