@@ -1,14 +1,9 @@
 import './App.css'
-// import Header from './Components/Header/Header'
-// import TextEditor from './Components/TextEditor/TextEditor'
-
 function App() {
 
   return (
     <div className="app">
-      {/* <Header />
-      <TextEditor /> */}
-    hello
+    <h1>Hello! Web app is working ...</h1>
     </div>
   )
 }
