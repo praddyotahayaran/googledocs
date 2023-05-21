@@ -1,0 +1,16 @@
+.sideBar {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.sideBar>a>img {
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.sideBar>a>img:nth-child(2) {
+    height: 3rem;
+}

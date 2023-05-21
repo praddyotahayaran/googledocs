@@ -2,9 +2,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #f3f3f3;
-    margin: 0;
+.textEditor {
+    display: flex;
+}
+
+#container {
+    flex: 2;
+}
+
+.sideBar {
+    flex: .1;
 }
 
 #container .ql-toolbar.ql-snow{

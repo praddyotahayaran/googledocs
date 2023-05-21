@@ -3,7 +3,7 @@ import './Header.css'
 import logo from '../../assets/brandLogo.png'
 import thumb from '../../assets/thumb.png'
 import { AiOutlineStar } from 'react-icons/ai'
-import { MdDriveFileMoveOutline } from 'react-icons/md'
+import { MdAddToDrive } from 'react-icons/md'
 import { BsCloudCheck } from 'react-icons/bs'
 import { GiBackwardTime } from 'react-icons/gi'
 import { MdOutlineInsertComment } from 'react-icons/md'
@@ -21,15 +21,12 @@ const Header = () => {
                 {/* Left Header */}
                 <div className="leftHeader">
 
-                    <div className="brandLogo">
-
-                    </div>
                     <div className="leftHeader1">
                         <span className='heading'>Untitled document</span>
 
                         <div className="cta">
                             <AiOutlineStar />
-                            <MdDriveFileMoveOutline />
+                            <MdAddToDrive />
                             <BsCloudCheck />
                         </div>
                     </div>
