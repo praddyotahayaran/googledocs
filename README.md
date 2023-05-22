@@ -1,5 +1,5 @@
 
-# Google Docs Clone
+# ![img-2](https://github.com/praddyotahayaran/googledocs/assets/94554048/641fd3f5-11f4-4ad1-8317-c14a6f133a59) Google Docs Clone
 
 This project is a clone of google docs toolbar.
 
