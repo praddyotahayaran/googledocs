@@ -8,7 +8,7 @@ Tools that I have used to build this project
 1. React
 2. Quill
 
-Quill: Quill is a free, open source WYSIWYG editor.
+Quill: Quill is a free, open source WYSIWYG (a type of editing software that allows users to see and edit content in a form that appears as it would when displayed on an interface, webpage, slide presentation or printed document) editor.
  
 ## Demo
 
