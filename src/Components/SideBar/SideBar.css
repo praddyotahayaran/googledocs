@@ -14,3 +14,11 @@
 .sideBar>a>img:nth-child(2) {
     height: 3rem;
 }
+
+/*********** Media Quries ***********/
+@media screen and (max-width: 890px) {
+    .sideBar {
+        display: none;
+    }
+    
+}
